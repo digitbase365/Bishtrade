@@ -413,4 +413,18 @@ section.service.pos-r{
 }
 /* ^^^^^^^^^ END OF ABOUT PAGE RULESET ^^^^^^^^^^^^^^ */
 
+/* ^^^^^^^^^ FAQ Page Ruleset ^^^^^^^^^^^^^^ */
+section.faq{
+    height: 60vh;
+    background: url(/images/FHRI-FAQ-Banner.png) no-repeat center right;
+    background-size: cover; 
+} 
+section#faq{ 
+    padding-top: 0;
+} 
+section#faq .mr-auto{   
+    height: 60px;
+} 
+/* ^^^^^^^^^ End of FAQ Page Ruleset ^^^^^^^^^^^^^^ */
+
 /* End of Custom Webpage Edits Rulesets */ 
