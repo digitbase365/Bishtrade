@@ -378,6 +378,7 @@ section#showcase{
 .holding{
     background: url(/images/Bishtrade\ Banner1.png) no-repeat center;
     background-size: cover;
+    /* background-attachment: fixed; */
     height: 100%;
     display: flex;
     align-items: flex-end;
@@ -405,7 +406,12 @@ section#showcase{
 }
 
 
-
+/* ^^^^^^^^^ ABOUT PAGE RULESET ^^^^^^^^^^^^^^ */
+section.service.pos-r{
+    background: url(/images/slide2.jpg) no-repeat center center;
+    background-attachment: fixed;
+}
+/* ^^^^^^^^^ END OF ABOUT PAGE RULESET ^^^^^^^^^^^^^^ */
 
 /* Custom Webpage Edits Rulesets */
 
