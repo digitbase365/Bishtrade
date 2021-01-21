@@ -435,5 +435,30 @@ section#faq .mr-auto{
      padding-top: 0;
  }
 /* ^^^^^^^^^ End of Testimonials Page Ruleset ^^^^^^^^^^^^^^ */
-
+/* Footer Ruleset */
+#footer-icon li{ 
+    display: flex;
+}
+#footer-icon li i{  
+    font-size: 30px;
+    margin-right: 10px; 
+    line-height: 30px; 
+    color: orangered;
+}   
+#footer-icon li a{
+    color: dodgerblue;
+}
+footer.footer{
+    padding: 25px 0;
+    border-left: 10px solid orangered;
+    background-color: #C1CAD6;
+} 
+.scroll-top a{
+    background-color: orangered;
+}
+.scroll-top  img{
+    width: 65%;
+}
+/* End of Footer Ruleset */
+ 
 /* End of Custom Webpage Edits Rulesets */ 
