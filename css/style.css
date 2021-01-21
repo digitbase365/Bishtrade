@@ -350,6 +350,14 @@ iframe{width: 100%; border: none; pointer-events: auto;}
 
 
 /* Custom Webpage Edits Rulesets */
+.navbar-nav .nav-link{ 
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 1.15rem;
+}
+.navbar .btn{
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 1.1rem;  
+}
 section#showcase{
     position: relative;
     height: 90vh;
@@ -400,6 +408,9 @@ section#showcase{
     border-radius: 5px; 
     margin-right: 50px;
     display: inline-block;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-weight: 600;
+    font-size: 1.1rem;
 } 
 .cta.orange{
     background-color: orangered; 
@@ -423,7 +434,7 @@ section#home #revolution h5{
 section#home #revolution p{
     font-family: 'Baloo Chettan 2', cursive; 
     font-family: 'Nunito', sans-serif;
-    text-align: justify;
+    text-align: justify; 
 }
 section#home #revolution h1{ 
     font-size: 2.5rem;
@@ -435,8 +446,6 @@ section#home #revolution .cta{
     margin-top: 20px;
     border-radius: 50px;
     font-family: 'Baloo Chettan 2', cursive;
-
-    font-weight: 600;
 }
 section#steps h2{
     font-family: 'Baloo Chettan 2', cursive;
@@ -450,6 +459,28 @@ section#steps .row{
     font-family: 'Nunito', sans-serif;  
 }
 /* End of CTA Rulesets */
+
+/* Pacakges Ruleset */
+#packages h2{
+    font-family: 'Baloo Chettan 2', cursive;
+    font-family: 'Libre Barcode 39 Extended Text', cursive;     
+    font-family: 'El Messiri', sans-serif; 
+    color: dodgerblue; 
+    font-size: 4rem;
+}
+#packages h3{
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 1.2rem;
+}
+#packages p{
+    font-family: 'Nunito', sans-serif;  
+}
+#packages .price-table{
+    height: 35em;
+    overflow-y: auto;
+    margin-bottom: 27px;
+}
+/* End of Pacakges Ruleset */
 
 /* ^^^^^^^^^ ABOUT PAGE RULESET ^^^^^^^^^^^^^^ */
 section.service.pos-r{
@@ -475,12 +506,53 @@ section#faq .mr-auto{
 /* ^^^^^^^^^ Testimonials Page Ruleset ^^^^^^^^^^^^^^ */
  section#testimonial-title{
      padding: 40px 0;
+ } 
+ section#testim{ 
+     padding: 20px 0;
  }
- section#testimonials{ 
-     padding-top: 0;
+ section#testim h2{
+     font-family: 'Baloo Chettan 2', cursive;
+ }
+ section#testim h5{
+     font-family: 'Baloo Chettan 2', cursive;
+ }
+ section#testim p{
+     font-family: 'Nunito', sans-serif;
+     /* font-weight: 600; */
+     line-height: 1.5rem;
+     color: #000;
  }
 /* ^^^^^^^^^ End of Testimonials Page Ruleset ^^^^^^^^^^^^^^ */
+
+/* Countee Ruleset */
+section#countee .count-number{ 
+    font-family: 'Baloo Chettan 2', cursive;
+    font-family: 'El Messiri', sans-serif; 
+
+}
+section#countee h5{ 
+    font-family: 'Nunito', sans-serif;
+}
+/* End of Countee Ruleset */
+
+
+/* Terms and Conditions Rulesets */
+section#conditions p{
+    font-family: 'Nunito', sans-serif;
+}
+/* End of Terms and Conditions Rulesets */
+
+/* Privacy Rulesets */
+section#privacy p{
+    font-family: 'Nunito', sans-serif;
+    text-align: justify; 
+}
+/* End of Privacy Rulesets */
+
 /* Footer Ruleset */
+footer{
+    font-family: 'Nunito', sans-serif;
+}
 #footer-icon li{ 
     display: flex;
 }
@@ -496,7 +568,7 @@ section#faq .mr-auto{
 footer.footer{
     padding: 25px 0;
     border-left: 10px solid orangered;
-    background-color: #C1CAD6;
+    background-color: #ebeef1;
 } 
 .scroll-top a{
     background-color: orangered;
