@@ -427,4 +427,13 @@ section#faq .mr-auto{
 } 
 /* ^^^^^^^^^ End of FAQ Page Ruleset ^^^^^^^^^^^^^^ */
 
+/* ^^^^^^^^^ Testimonials Page Ruleset ^^^^^^^^^^^^^^ */
+ section#testimonial-title{
+     padding: 40px 0;
+ }
+ section#testimonials{ 
+     padding-top: 0;
+ }
+/* ^^^^^^^^^ End of Testimonials Page Ruleset ^^^^^^^^^^^^^^ */
+
 /* End of Custom Webpage Edits Rulesets */ 
