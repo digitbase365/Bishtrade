@@ -480,6 +480,122 @@ section#steps .row{
     overflow-y: auto;
     margin-bottom: 27px;
 }
+
+
+/* Neo Packages */
+section#estate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ebf5fc;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+  }
+  #estate #container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    padding: 40px 0;
+  }
+  #estate #container .card{
+    position: relative;
+    min-width: 320px;
+    height: 500px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+                inset -5px -5px 5px rgba(255, 255, 255, 0.5),
+                5px 5px 5px rgba(0, 0, 0, 0.05),
+                -5px -5px 5px rgba(255, 255, 255, 0.5) !important;
+    border-radius: 15px;
+    background: #ebf5fc;
+    border: none;
+    margin: 30px; 
+  }
+  #estate #container .card .box{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: #ebf5fc;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 15px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+  }
+  #estate #container .card:hover .box{
+    transform: translateY(-40px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(45deg, #1e90ff, #1e90ff, #51CB20); 
+  }
+  #estate #container .card .box .content{
+    padding: 20px 30px;
+    text-align: center; 
+    position: relative;
+  } 
+  #estate #container .card .box .content h2{
+    position: absolute;
+    top: -10px;
+    right: 30px;
+    font-size: 8em;
+    color: rgba(0, 0, 0, 0.02);
+    transition: 0.5s;
+    pointer-events: none;
+    font-family: 'El Messiri', sans-serif;  
+  }
+  #estate #container .card:hover .box .content h2{
+    color: rgba(0, 0, 0, 0.05);
+  }
+  #estate #container .card .box .content h3{
+    font-family: 'Baloo Chettan 2', cursive;
+
+  }
+  #estate #container .card:hover .box .content h3{
+    font-size: 1.8em;
+    color: #777;
+    z-index: 1;
+    transition: 0.5s;
+  } 
+  
+  #estate #container .card .box .content p{
+    font-size: .9em;
+    font-weight: 300;
+    color: #777;
+    z-index: 1;
+    transition: 0.5s; 
+    line-height: 1.2rem;
+    text-align: justify;
+  } 
+  #estate #container .card:hover .box .content h3,
+  #estate #container .card:hover .box .content p
+    {
+    color: #fff;
+  }
+  #estate #container .card .box .content a{
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    background: #03a9f4;
+    margin-top: 15px;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    font-family: 'Baloo Chettan 2', cursive;
+  }
+  #estate #container .card:hover .box .content a{
+    background: #ff568f;
+    background: #ff512f;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
+  }
+  
+
 /* End of Pacakges Ruleset */
 
 /* ^^^^^^^^^ ABOUT PAGE RULESET ^^^^^^^^^^^^^^ */
