@@ -656,6 +656,11 @@ section#faq .mr-auto{
      line-height: 1.5rem;
      color: #000;
  }
+.testimonial.style-3 .testimonial-img
+{
+    width: 40%;
+}
+
 /* ^^^^^^^^^ End of Testimonials Page Ruleset ^^^^^^^^^^^^^^ */
 
 /* Countee Ruleset */

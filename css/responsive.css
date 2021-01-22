@@ -228,7 +228,11 @@ h3 {font-size: 22px; line-height: 30px;}
 .testimonial.style-2 .testimonial-img{width: 25%;}
 .testimonial-2 .controls li:nth-child(1), .testimonial-2 .controls li:nth-child(4){bottom: 0;}
 .testimonial-2 .controls li:nth-child(2), .testimonial-2 .controls li:nth-child(3){bottom: 68%;}
-.testimonial.style-3 .testimonial-img {width: 50%;}
+.testimonial.style-3 .testimonial-img 
+{
+  width: 100px;
+  border: 1px solid salmon;
+}
 .testimonial.style-5{display: inline-block; margin: 0;}
 .testimonial.style-5 .testimonial-img{width: 50%;}
 .testimonial.style-5 .testimonial-content {margin-left: 0; padding: 100px 30px 30px 30px; margin-top: -100px;}
