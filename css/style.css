@@ -629,6 +629,9 @@ section#estate{
 /* End of Pacakges Ruleset */
 
 /* ^^^^^^^^^ ABOUT PAGE RULESET ^^^^^^^^^^^^^^ */
+section#about h6 span{
+    color: orangered;
+}
 section.service.pos-r{
     background: url(/images/slide2.jpg) no-repeat center center;
     background-attachment: fixed;
@@ -734,6 +737,19 @@ footer.footer{
 .scroll-top  img{
     width: 65%;
 }
+
+.scroll-top.chat{
+    bottom: 120px;
+}
+.scroll-top.chat a{
+    background-color: limegreen;
+    border-radius: 50%;
+}
+.scroll-top.chat a:hover{
+    background-color: #fff;
+    color: limegreen;
+}
+
 footer#footer .la.la-whatsapp{
     color: #21af2d;
 }
