@@ -185,12 +185,12 @@ a, i, .btn, .btn span, button, img, span, .dropdown-item, .social-icons li:hover
 /* ------------------------
     Header
 ------------------------*/
-.logo img {height: 50px;}
-#header-wrap.fixed-header .logo img {height: 40px;}
+.logo img {height: 60px;}
+#header-wrap.fixed-header .logo img {height: 50px;}
 /* .header {position: absolute; top: 0; width: 100%; z-index: 1200;} */
-#header-wrap {background:#fff; position: relative;}
-.header-1 #header-wrap{padding: 10px 20px;}
-#header-wrap.fixed-header {padding: 10px 20px; position: fixed; top:0; left:0; width: 100%; z-index: 999 !important; background: #ffffff !important;}
+#header-wrap {background: #fff; position: relative;}
+.header-1 #header-wrap{padding: 0;}
+#header-wrap.fixed-header {padding: 0px; position: fixed; top:0; left:0; width: 100%; z-index: 999 !important; background: #ffffff !important;}
 .header-1 #header-wrap:before{content: ""; background: #f9f7fc; width: 96%; height: 30px; position: absolute; left: 2%; bottom: -10px; z-index: -1}
 .header-1 #header-wrap:after{content: ""; background: #fcfbfd; width: 92%; height: 30px; position: absolute; left: 4%; bottom: -20px; z-index: -9}
 #header-wrap.fixed-header:before, #header-wrap.fixed-header:after{display: none;}
